@@ -1,2 +1,3 @@
-# user-api-node-mongo
-A simple Node.js and Express API that connects to MongoDB to retrieve user details by ID, returning only users over 21. Includes graceful error handling for invalid ObjectIds and missing records.
+### Node.js API + MongoDB - User Lookup
+
+This simple Express API connects to a MongoDB database and retrieves user data by ID via a GET endpoint at `/users/:id`. It returns the user's details only if they are over 21 and gracefully handles invalid IDs and not-found errors.
